@@ -1,0 +1,48 @@
+/* src/pages/SignupPage.css */
+
+.signup-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+.signup-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2a80b9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #1c5d8d;
+}
+
+.response-message {
+  margin-bottom: 10px;
+  color: red;
+  font-weight: bold;
+}
+
+.show-password {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.password-wrapper {
+  position: relative;
+}

@@ -1,0 +1,56 @@
+.welcome-container {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background-color: #f0f0f0;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.left-home {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.right-buttons .nav-btn {
+  margin-left: 10px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00796b;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.main-content {
+  margin-top: 50px;
+}
+
+.king {
+  color: #c62828;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 30px;
+}
+
+.feature-box {
+  width: 120px;
+  height: 120px;
+  background-color: #e0f7fa;
+  border: 2px solid #00acc1;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-top: 20px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}

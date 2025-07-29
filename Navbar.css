@@ -1,0 +1,55 @@
+/* Navbar container */
+.navbar {
+  background-color: #0d47a1; /* Dark blue */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Title (if used later) */
+.navbar-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Navbar links list */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Links style */
+.navbar-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 6px 10px;
+  transition: background 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+/* Logout button style */
+.navbar-links li button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 6px 10px;
+  transition: background 0.3s ease;
+}
+
+.navbar-links li button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
